@@ -1,0 +1,40 @@
+<!--
+Un fichier XML de SAVE contient :
+Les différents niveaux. //vector<string> avalaible_levels
+Les differentes informations sur chaque niveau :
+  - Le niveau courant // Game Level *current_level
+  - Niveau réussi ou non // bool info_niveau
+  - Les différents essai tapé par le joueur. // std::vector<vector<string>> essai;
+  - Moyenne pour memoriser les differents essai std::vector<float> out;
+  -
+-->
+
+<player>
+  <object>
+
+    <current_level>save</current_level>
+
+<!-- A REMPLIR -->
+    <avalaible_levels>
+      <name>save</name>
+      <name>copy</name>
+    </avalaible_levels>
+
+    <level>
+      <lvl>
+        <current_level><!-- Nom du niveau --></name>
+        <congrats>no</congrats> <!-- BOOL niveau réussi ou non -->
+        <trial>
+          <try></try>
+        </trial>
+        <average>
+          <avg></avg>
+        </average>
+      </lvl>
+
+      <lvl>
+      </lvl>
+    </level>
+
+  </object>
+</player>
